@@ -1,0 +1,1 @@
+1. uninstall unused dependencies without breaking the whole damn app e.g font icons.

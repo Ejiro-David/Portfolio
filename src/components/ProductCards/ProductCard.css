@@ -8,10 +8,15 @@
 }
 .p-pad{
     height: 20px;
+    position: sticky;
+    z-index: 2;
     background-color: rgb(177, 177, 177);
 }
-img{
-
+.p img{
+    transition: all 9s ease;
     height: max-content;
     object-fit: cover;
+}
+.p img:hover{
+    transform: translateY(-100%);
 }
