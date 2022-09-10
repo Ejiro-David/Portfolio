@@ -4,18 +4,37 @@
 .wrapper{
     padding: 50px;
     display: flex;
-
+    align-items: center;
 }
 .c-left{
     flex: 1;
 }
 .cl-title{
     font-size: 80px;
+    margin-top: 0px;
     width: 90%;
 }
 .cl-info{
     margin: 50px 0px;
     font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+.cl-info img{
+    height: 20px;
+    background-color: aqua;
+}
+.cl-info a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 0px 0px 14px;
+    background-color: aquamarine;
+}
+.cl-link{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    align-content: center;
 }
 .c-right{
     flex: 1;
@@ -43,7 +62,7 @@ textarea{
     padding-left: 10px;
 }
 button{
-    background-color: rgb(102, 228, 102);
+    background-color: rgb(228, 182, 102);
     border: none;
     color: white;
     padding: 15px;
