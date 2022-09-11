@@ -50,6 +50,10 @@ function Contact() {
               <img alt="" src={pin}></img>
               <a href="x">Nigeria</a>
             </div>
+            <div className="cl-link">
+              <img alt="" src={linkedin}></img>
+              <a href="https://www.linkedin.com/in/david-ejiro-erhabor/">Linkedin</a>
+            </div>
           </div>
         </div>
         <div className="c-right">

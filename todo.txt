@@ -2,4 +2,3 @@
 
 2. add a thank you or loading message when user sends an email.
 
-3. fix contact link alignment
