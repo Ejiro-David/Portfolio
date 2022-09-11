@@ -1,17 +1,19 @@
-import './App.css';
+import "./App.css";
 
-import About from './components/about/about';
-import Contact from './components/Contact/Contact';
-import Intro from './components/intro/intro';
-import ProductList from './components/ProductList/ProductList';
+import About from "./components/about/about";
+import Contact from "./components/Contact/Contact";
+import Intro from "./components/intro/intro";
+import ProductList from "./components/ProductList/ProductList";
+import Toggle from "./components/Toggle/Toggle";
 
 function App() {
   return (
     <div className="App">
-      <Intro/>
-      <About/>
-      <ProductList/>
-      <Contact/>
+      <Toggle />
+      <Intro />
+      <About />
+      <ProductList />
+      <Contact />
     </div>
   );
 }

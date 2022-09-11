@@ -52,7 +52,7 @@ function Contact() {
             </div>
             <div className="cl-link">
               <img alt="" src={linkedin}></img>
-              <a href="https://www.linkedin.com/in/david-ejiro-erhabor/">Linkedin</a>
+              <a href="https://www.linkedin.com/in/david-ejiro-erhabor/">Linked</a>
             </div>
           </div>
         </div>
