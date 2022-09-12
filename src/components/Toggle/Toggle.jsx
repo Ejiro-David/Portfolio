@@ -1,22 +1,28 @@
-import React from 'react'
-import './Toggle.css';
-import sunny from '../branding/sunny.png'
+import React from "react";
+import "./Toggle.css";
+import sunny from "../branding/sunny.png";
 import moon from "../branding/moon.png";
-import button from "../branding/radio-button.png";
-
-
-
+import { useContext } from "react";
+import { ThemeContext } from "../context";
 
 function Toggle() {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.dark;
+
+  const handleClick = () => {
+    theme.dispatch({ type: "TOGGLE" });
+  };
+
   return (
-    <div className='t'>
-        <img alt='' src={sunny} className='t-icon'></img>
-        <img alt='' src={moon} className='t-icon'></img>
-        <div className='t-button'></div>
-
-
+    <div className="t"  onClick={handleClick}>
+      <img alt="" src={sunny} className="t-icon"></img>
+      <img alt="" src={moon} className="t-icon"></img>
+      <div
+        className="t-button"
+        style={{ left: darkMode ? 0 : 25 }}
+      ></div>
     </div>
-  )
+  );
 }
 
-export default Toggle
+export default Toggle;

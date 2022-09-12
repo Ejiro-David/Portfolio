@@ -2,4 +2,8 @@
 
 2. add a thank you or loading message when user sends an email.
 
-3
+3. add transition effect to darkmode toggle button.
+
+4. try using JS inside the html to add styles
+
+5. fix contact link images darkmode appearance

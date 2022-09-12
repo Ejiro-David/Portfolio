@@ -7,8 +7,21 @@ import phone from "../branding/phone-call.png";
 import pin from "../branding/pin.png";
 
 import emailjs from "@emailjs/browser";
+import { useContext } from "react";
+import { ThemeContext } from "../context";
 
 function Contact() {
+
+
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.dark; 
+
+
+
+
+
+
+
   const formRef = useRef();
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -29,6 +42,8 @@ function Contact() {
       );
   };
 
+  
+  
   return (
     <div className="c">
       <div className="wrapper">
@@ -37,22 +52,24 @@ function Contact() {
           <div className="cl-info">
             <div className="cl-link">
               <img alt="" src={github}></img>
-              <a href="x">Git</a>
+              <a style={{color : darkMode && 'white'}} href="x">Git</a>
             </div>
             <div className="cl-link">
-              <img alt="" src={medium}></img> <a href="x">My little blog</a>
+              <img alt="" src={medium}></img> <a style={{color : darkMode && 'white'}} href="x">My little blog</a>
             </div>
             <div className="cl-link">
               <img alt="" src={phone}></img>
-              <a href="x">+2348158527977</a>
+              <a style={{color : darkMode && 'white'}} href="x">+2348158527977</a>
             </div>
             <div className="cl-link">
               <img alt="" src={pin}></img>
-              <a href="x">Nigeria</a>
+              <a style={{color : darkMode && 'white'}} href="x">Nigeria</a>
             </div>
             <div className="cl-link">
               <img alt="" src={linkedin}></img>
-              <a href="https://www.linkedin.com/in/david-ejiro-erhabor/">Linked</a>
+              <a style={{color : darkMode && 'white'}} href="https://www.linkedin.com/in/david-ejiro-erhabor/">
+                Linked
+              </a>
             </div>
           </div>
         </div>
@@ -61,15 +78,15 @@ function Contact() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
             provident repellat atque nihil, fugit esse voluptas.
           </p>
-          <form ref={formRef} onSubmit={handleSubmit}>
-            <input type="text" placeholder="name" name="user_name"></input>
-            <input
+          <form ref={formRef} onSubmit={handleSubmit} >
+            <inpu style={{backgroundColor : darkMode && '#333'}} type="text" placeholder="name" name="user_name" ></inpu>
+            <input style={{backgroundColor : darkMode && '#333'}}
               type="text"
               placeholder="subject"
               name="user_subject"
             ></input>
-            <input type="text" placeholder="email" name="user_email"></input>
-            <textarea rows={9} placeholder="message" name="message"></textarea>
+            <input style={{backgroundColor : darkMode && '#333'}} type="text" placeholder="email" name="user_email"></input>
+            <textarea style={{backgroundColor : darkMode && '#333'}} rows={9} placeholder="message" name="message"></textarea>
             <button>Send Message</button>
           </form>
         </div>
@@ -77,5 +94,7 @@ function Contact() {
     </div>
   );
 }
+
+
 
 export default Contact;
