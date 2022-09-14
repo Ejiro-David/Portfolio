@@ -2,8 +2,13 @@
 
 2. add a thank you or loading message when user sends an email.
 
-3. add transition effect to darkmode toggle button.
 
 4. try using JS inside the html to add styles
 
-5. fix contact link images darkmode appearance
+5. fix contact link images darkmode appearance.
+
+6. try adding transition effect to the darkmode color change.
+
+add a sticker nav bar that implements react router
+
+get rid of horizontal scrolling

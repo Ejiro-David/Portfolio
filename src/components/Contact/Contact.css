@@ -1,7 +1,7 @@
 .c {
-  height: 100vh;
+  min-height: 100vh;
 }
-.wrapper {
+.c-wrapper {
   padding: 50px;
   display: flex;
   align-items: center;
@@ -82,4 +82,19 @@ button {
 button:hover {
     transform: scale( 1.1);
     opacity: 0.8;
+  }
+
+  @media (max-width: 500px) {
+    .c-wrapper{
+      flex-direction: column;
+    }
+    .cl-title{
+      font-size: 50px;
+    }
+    .c-right p{
+      display: none;
+    }
+    form{
+      margin: 0px;
+    }
   }

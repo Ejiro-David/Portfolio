@@ -17,6 +17,7 @@ function About() {
       <div className="a-right">
         <h1 className="a-title">Work Experience</h1>
         <p className="a-sub">
+        {/* some restylings and fancy subheadings go here when I update with real info */}
         <li>HNG</li>
         But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose. To do so, I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness
         </p>

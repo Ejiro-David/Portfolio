@@ -25,3 +25,19 @@
     justify-content: space-between;
     width: 100%
 }
+@media (max-width: 500px){
+    .pl-descr{
+        display: none;
+    }
+    .pl{
+       width: 100vw;
+       margin: 0%;
+       padding: 10px;
+       align-items: center;
+    }
+    .pl-list{
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+}

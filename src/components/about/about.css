@@ -1,5 +1,6 @@
 .a {
-  height: 100vh;
+  min-height: 100vh;
+  margin-top: 50px;
   display: flex;
   align-content: center;
 }
@@ -37,4 +38,15 @@
   left: 50px;
   background-color: brown;
 
+}
+
+@media (max-width: 500px){
+  .a-left{
+    display: none;
+
+  }
+  .a-right{
+   padding: 20px;
+
+  }
 }

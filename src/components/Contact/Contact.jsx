@@ -46,7 +46,7 @@ function Contact() {
   
   return (
     <div className="c">
-      <div className="wrapper">
+      <div className="c-wrapper">
         <div className="c-left">
           <h1 className="cl-title">Holla at Me!</h1>
           <div className="cl-info">
