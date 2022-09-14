@@ -10,5 +10,5 @@
 6. try adding transition effect to the darkmode color change.
 
 add a sticker nav bar that implements react router
-
+  
 get rid of horizontal scrolling
