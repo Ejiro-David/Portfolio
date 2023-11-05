@@ -11,4 +11,6 @@
 
 add a sticker nav bar that implements react router
   
-explore alternate ways to showcase projects
+---------------
+
+Project tabs and about image get too thin, tweak media queries and display on small screens

@@ -25,6 +25,15 @@
     justify-content: space-around;
     width: 100%
 }
+.stack-list{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    row-gap: 5px;
+    column-gap: 10px;
+
+}
 @media (max-width: 500px){
     .pl-descr{
         display: none;

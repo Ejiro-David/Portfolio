@@ -1,5 +1,6 @@
 .p{
     width: 30%;
+    min-width: 200px;
     height: 40vh;
     margin: 20px 10px;
     border: 1px solid rgb(177, 177, 177);
@@ -19,6 +20,11 @@
 }
 .p img:hover{
     transform: translateY(-100%);
+}
+@media (max-width: 1000px){
+    .p{
+        height: 20vh;
+    }
 }
 @media (max-width: 500px){
     .p{

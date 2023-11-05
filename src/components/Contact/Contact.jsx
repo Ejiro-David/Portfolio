@@ -52,10 +52,10 @@ function Contact() {
           <div className="cl-info">
             <div className="cl-link">
               <img alt="" src={github}></img>
-              <a style={{color : darkMode && 'white'}} href="x">Git</a>
+              <a style={{color : darkMode && 'white'}} href="x" target="_blank"  rel="noreferrer">Git</a>
             </div>
             <div className="cl-link">
-              <img alt="" src={medium}></img> <a style={{color : darkMode && 'white'}} href="x">My little blog</a>
+              <img alt="" src={medium}></img> <a style={{color : darkMode && 'white'}} href="x" target="_blank"  rel="noreferrer">My little blog</a>
             </div>
             <div className="cl-link">
               <img alt="" src={phone}></img>
@@ -67,7 +67,7 @@ function Contact() {
             </div>
             <div className="cl-link">
               <img alt="" src={linkedin}></img>
-              <a style={{color : darkMode && 'white'}} href="https://www.linkedin.com/in/david-ejiro-erhabor/">
+              <a style={{color : darkMode && 'white'}} href="https://www.linkedin.com/in/david-ejiro-erhabor/" target="_blank"  rel="noreferrer">
                 Linked
               </a>
             </div>
