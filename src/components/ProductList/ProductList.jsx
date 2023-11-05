@@ -22,10 +22,10 @@ function ProductList() {
               <li>Agile</li>
               <li>JQuery</li>
               <li>React</li>
-              <li>x</li>
-              <li>x</li>
-              <li>x</li>
-              <li>x</li>
+              <li>More Here</li>
+              <li>More Here</li>
+              <li>More Here</li>
+              <li>More Here</li>
             </ul>
         </div>
         <div className="pl-list">
