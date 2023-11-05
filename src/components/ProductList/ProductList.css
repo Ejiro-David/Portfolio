@@ -37,6 +37,7 @@
 @media (max-width: 500px){
     .pl-descr{
         display: none;
+        flex: auto;
     }
     .pl{
        width: 100vw;
