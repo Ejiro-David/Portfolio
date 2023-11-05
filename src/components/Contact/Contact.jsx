@@ -39,8 +39,9 @@ function Contact() {
         (error) => {
           console.log(error.text);
         }
-      );
-  };
+        );
+        e.target.reset();
+    };
 
   
   
@@ -52,23 +53,23 @@ function Contact() {
           <div className="cl-info">
             <div className="cl-link">
               <img alt="" src={github}></img>
-              <a style={{color : darkMode && 'white'}} href="x" target="_blank"  rel="noreferrer">Git</a>
+              <a style={{color : darkMode && 'white'}} href="https://github.com/Ejiro-David" target="_blank"  rel="noreferrer">Git</a>
             </div>
             <div className="cl-link">
-              <img alt="" src={medium}></img> <a style={{color : darkMode && 'white'}} href="x" target="_blank"  rel="noreferrer">My little blog</a>
+              <img alt="" src={medium}></img> <a style={{color : darkMode && 'white'}} href="https://medium.com/@daviderhabor.de" target="_blank"  rel="noreferrer">My little blog</a>
             </div>
             <div className="cl-link">
               <img alt="" src={phone}></img>
-              <a style={{color : darkMode && 'white'}} href="x">+2348158527977</a>
+              <a style={{color : darkMode && 'white'}} rel="noreferrer"  target="_blank" href="tel:+2348158527977">+2348158527977</a>
             </div>
             <div className="cl-link">
               <img alt="" src={pin}></img>
-              <a style={{color : darkMode && 'white'}} href="x">Nigeria</a>
+              <a style={{color : darkMode && 'white'}} rel="noreferrer"  target="_blank" href="https://maps.app.goo.gl/hY9pb9a23m2WXgk29">Nigeria</a>
             </div>
             <div className="cl-link">
               <img alt="" src={linkedin}></img>
-              <a style={{color : darkMode && 'white'}} href="https://www.linkedin.com/in/david-ejiro-erhabor/" target="_blank"  rel="noreferrer">
-                Linked
+              <a style={{color : darkMode && 'white'}}  href="https://www.linkedin.com/in/david-ejiro-erhabor/" target="_blank"  rel="noreferrer">
+                Linkedin
               </a>
             </div>
           </div>
@@ -85,7 +86,7 @@ function Contact() {
               placeholder="subject"
               name="user_subject"
             ></input>
-            <input style={{backgroundColor : darkMode && '#333'}} type="text" placeholder="email" name="user_email"></input>
+            <input style={{backgroundColor : darkMode && '#333'}} type="text" placeholder="your email" name="user_email"></input>
             <textarea style={{backgroundColor : darkMode && '#333'}} rows={9} placeholder="message" name="message"></textarea>
             <button>Send Message</button>
           </form>
